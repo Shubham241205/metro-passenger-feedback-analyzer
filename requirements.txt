@@ -1,0 +1,2 @@
+# Requirements for Metro Passenger Feedback Sentiment & Topic Analyzer
+# Dependencies will be specified in future project stages.
