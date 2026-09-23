@@ -1,0 +1,27 @@
+METRO PASSENGER FEEDBACK - SENTIMENT ANALYSIS EVALUATION REPORT
+=================================================================
+Training Records : 1600
+Testing Records  : 400
+TF-IDF Features  : 424
+-----------------------------------------------------------------
+Accuracy  : 0.8700
+Precision : 0.8573
+Recall    : 0.8700
+F1-Score  : 0.8496
+-----------------------------------------------------------------
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative     0.8247    0.9938    0.9014       161
+     Neutral     0.6786    0.3065    0.4222        62
+    Positive     0.9494    0.9548    0.9521       177
+
+    accuracy                         0.8700       400
+   macro avg     0.8176    0.7517    0.7586       400
+weighted avg     0.8573    0.8700    0.8496       400
+
+-----------------------------------------------------------------
+Confusion Matrix:
+[[160   1   0]
+ [ 34  19   9]
+ [  0   8 169]]

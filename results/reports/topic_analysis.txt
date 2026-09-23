@@ -1,0 +1,54 @@
+METRO PASSENGER FEEDBACK - STAGE 6: REFINED TOPIC ANALYSIS REPORT
+===========================================================================
+Number of Records Analyzed : 2000
+Number of Topics Discovered: 8
+Workflow: Feedback Text -> Better NLP -> TF-IDF (Unigrams+Bigrams) -> Template Stopword Filter -> NMF -> Topic Assignment
+===========================================================================
+
+DISCOVERED TOPICS & TOP KEYWORDS:
+---------------------------------------------------------------------------
+Topic 1: Coach & Infrastructure Maintenance
+  Count: 292 records (14.60%)
+  Top 10 Words: maintained, well, well maintained, coach, coach clean, clean well, clean, station infrastructure, infrastructure, infrastructure well
+
+Topic 2: Escalator & Lift Operational Maintenance
+  Count: 200 records (10.00%)
+  Top 10 Words: working, escalator, need, escalator working, need maintenance, working need, maintenance, working escalator, station clean, lift working
+
+Topic 3: Train Service Delays & Inconvenience
+  Count: 165 records (8.25%)
+  Top 10 Words: service, caused inconvenience, lift service, service caused, inconvenience, caused, lift, train service, late punctuality, late
+
+Topic 4: Daily Commuter Fare Structure & Review
+  Count: 247 records (12.35%)
+  Top 10 Words: commuter, daily commuter, daily, frequent, review, frequent daily, fare frequent, review fare, difficult, fare
+
+Topic 5: Ticket Pricing & Short Distance Fares
+  Count: 263 records (13.15%)
+  Top 10 Words: journey, ticket, ticket price, expensive, expensive short, short, short journey, price, price expensive, window clean
+
+Topic 6: Station Staff Behavior & Security
+  Count: 265 records (13.25%)
+  Top 10 Words: staff, station, station staff, helpful, polite helpful, polite, staff polite, security, staff member, member counter
+
+Topic 7: Station Seating & Signage Amenities
+  Count: 164 records (8.20%)
+  Top 10 Words: seating, area, signage useful, signage, seating area, area signage, useful, drinking water, water, drinking
+
+Topic 8: Train & Platform Overcrowding
+  Count: 404 records (20.20%)
+  Top 10 Words: passenger, train, many, passenger packed, many passenger, packed, packed train, near, platform, edge
+
+CROSS-TABULATION COMPARISON (DISCOVERED TOPIC vs ORIGINAL ISSUE CATEGORY):
+---------------------------------------------------------------------------
+issue_category                            Cleanliness  Connectivity  Crowding  Delay  Facilities  Fare  Maintenance  Safety  Staff Behaviour  Ticketing
+discovered_topic                                                                                                                                       
+Coach & Infrastructure Maintenance                 56            52        41      0           0    48           95       0                0          0
+Daily Commuter Fare Structure & Review              0            90        57     50           0    50            0       0                0          0
+Escalator & Lift Operational Maintenance            0             0         0      0          49     0           60       0                0         91
+Station Seating & Signage Amenities                51             0         0      0         113     0            0       0                0          0
+Station Staff Behavior & Security                  53             0         0      0           0     0            0      50              162          0
+Ticket Pricing & Short Distance Fares              55             0         0      0           0    63            0      53                0         92
+Train & Platform Overcrowding                       0            51        97     89           0     0           39      89               39          0
+Train Service Delays & Inconvenience                0             0         0     56          58    51            0       0                0          0
+
